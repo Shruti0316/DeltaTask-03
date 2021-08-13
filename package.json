@@ -1,0 +1,25 @@
+{
+  "name": "deltatask-03",
+  "version": "1.0.0",
+  "description": "Delta Webdev task 3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shruti0316/DeltaTask-03.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shruti0316/DeltaTask-03/issues"
+  },
+  "homepage": "https://github.com/Shruti0316/DeltaTask-03#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0"
+  }
+}
