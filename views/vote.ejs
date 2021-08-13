@@ -1,0 +1,25 @@
+<link href="/public/css/style.css" rel="stylesheet" type="text/css">
+<div class="content home">
+	<header>Available Polls
+        <div id="ahome"><a href="/home">BACK TO HOME</a></div>
+    </header>
+	<table class="poll-list">
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>Title</td>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody>
+            <% for (var i = 0; i < op.length; i++) { %>
+                <tr>
+                    <td><%=r[i].id %></td>
+                    <td><%=r[i].title %></td>
+                    <td class ="view" id="<%=r[i].title %>"><a href="/vote/<%=i+1 %>">View</a></td>
+                </tr>
+            <% } %>
+        </tbody>
+    </table>
+</div>
+<script src="/public/javascript/script.js"></script>
