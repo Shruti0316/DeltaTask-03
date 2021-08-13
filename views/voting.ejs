@@ -1,0 +1,13 @@
+<link href="/public/css/style.css" rel="stylesheet" type="text/css">
+<!-- VOTING POLL -->
+<div id="poll-vote">
+	<div id="title"><%=title %></div>
+	<div id="que"><%=question %></div>
+    <form id="polling" method="post" action="">
+            <% for (var i = 0; i < answers.length; i++) { %>
+                <input class="voteBtn" type="radio" name="answer" value="<%= answers[i] %>"> <%= answers[i] %><br>
+            <% } %>
+            <input id="btn" type="submit" value="Vote">
+        </div>
+    </form>
+</div>
