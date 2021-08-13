@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Monoton&display=swap');
+body{
+    height: 100%;
+    margin: 0;
+    background-color: #0e2f56;
+}
+#logform,#register,#createTeam,#inviteform,#createPoll{
+   background-color: #ff304f;
+    color: black;
+    padding: 35px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%); 
+} 
+form{
+    font-size: 25px; 
+    font-family: 'Rubik', sans-serif;
+    padding: 35px;
+}
+.bttn{
+    width: 100%;
+    border: 0;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#login,#signup{
+    font-size: 20px;
+}
+.data{ 
+    border:0;
+    border-bottom: 1px black solid;
+    background-color: #ff304f;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    outline: none;
+}
+.navbar{
+    background-color: #ff304f;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar div{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+.navbar div:hover,.navbar div a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #0e2f56;
+}    
+#welcome{
+    color: #ff304f;
+    font-family: 'Monoton', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.button{
+    width: 50%;
+    border: 0;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.info{ 
+    border:0;
+    background-color:#ff304f;
+    border-bottom: 1px black solid;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    outline: none;
+}
+.title{
+    font-size: 25px;
+    font-family: 'Concert One',sans-serif;
+    color: white;
+}
+#createTeam,#inviteForm,#createPoll{
+    display: none;
+}
+
+/* VOTING POLL UI */
+#poll-vote{
+    background-color: white;
+    color: black;
+    padding: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    border-radius: 15px;
+}
+#title{
+    font-size: 30px;
+    font-family: 'Concert One',sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: red;
+}
+#que{
+    font-size: 24px;
+    font-weight: bold;
+}
+#polling{
+    font-size: 22px;
+}
+#btn{
+    border: 0;
+    background-color: rgb(0, 132, 255);
+    color: #ececda;
+    font-weight: bolder;
+    padding: 10px;
+    margin-top: 20px; 
+}
+a{
+  color: white;
+  text-decoration: none;  
+}
+.view a{
+    color: #0e2f56;
+    font-weight: bold;
+}
+header{
+    color: whitesmoke;
+    font-size: 75px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+}
+    .poll-list {
+    border-collapse: collapse;
+    font-family: sans-serif;
+    min-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.poll-list thead tr {
+    background-color: #ff304f;
+    color: #ffffff;
+    text-align: left;
+}
+.poll-list  th,
+.poll-list  td {
+    padding: 12px 15px;
+}
+.poll-list tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.poll-list tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.poll-list tbody tr:nth-of-type(odd) {
+    background-color: #fabed0;
+}
+#ahome{
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
